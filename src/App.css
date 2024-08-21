@@ -1,0 +1,11 @@
+/* App.css */
+.scroll-container {
+  overflow: auto; /* Allows both vertical and horizontal scrolling */
+  height: 100vh;  /* Full viewport height */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  scrollbar-width: none;     /* For Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
